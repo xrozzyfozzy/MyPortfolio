@@ -1,0 +1,724 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+/* Navigation Bar Section */
+header {
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: #F9F9F9;
+
+}
+
+.nav_container {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin-top: 20px;
+}
+
+.nav_logo {
+
+}
+
+.nav_menu img {
+    margin-left: 60px;
+}
+
+
+
+/* Above the Fold Section */
+.abf {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 768px;
+    background-color: #F9F9F9;
+
+}
+
+.abf_container {
+    display: flex;
+    width: 1200px;
+    height: 100%;
+    background-color: #F9F9F9;
+
+}
+
+.abf_name {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: ;
+    width: 50%;
+    height: 100%;
+    margin-top: -20px;
+}
+
+.abf_name h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 181px;
+    color: #FF6392;
+}
+
+.abf_name h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 107px;
+    color: #FF6392;
+    margin-top: -20px;
+}
+
+.abf_name h3 {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 48px;
+    font-weight: 800;
+    font-style: italic;
+    color: #FF6392;
+    margin-top: 10px;
+}
+
+.abf_video {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    height: 100%;
+    margin-top: -40px;
+}
+
+.abf_youtubevideo {
+    border: 1px solid black;
+    margin-top: 160px;
+    display: flex;
+    width: 560px;
+    height: 400px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.abf_quarantine {
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    
+}
+
+.abf_wrapper {
+    /* border: 1px solid red; */
+    display: flex;
+    
+}
+
+/* About Section */
+.about {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.about_container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 1200px;
+}
+
+.about_title {
+    /* border: 1px solid red; */
+
+}
+
+.about_text > p {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.about_skills {
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    /* padding: 25px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 1px; */
+}
+
+.about_skills > img {
+    opacity: 0.9;
+}
+
+
+
+
+/* Euro Bagel Cafe Section */
+.ebc {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-color: #F9F9F9;
+}
+
+.ebc_container {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 1200px;
+    height: 100%;
+}
+
+.ebc_text {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.ebc_title {
+
+}
+
+.ebc_title img {
+
+}
+
+.ebc_paragraph {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 600px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.ebc_links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.ebc_links > a {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.ebc_video {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+}
+
+.ebc_youtubevideo {
+    border: 1px solid black;
+    display: flex;
+    width: 420px;
+    height: 315px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+
+
+
+
+/* My Portfolio Section */
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.portfolio_container {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 1200px;
+    height: 100%;
+}
+
+.portfolio_text {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+.portfolio_title {
+
+}
+
+.portfolio_title img {
+
+}
+
+.portfolio_paragraph {
+    display: flex;
+    text-align: left;
+    /* border: 1px solid red; */
+    width: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.portfolio_links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.portfolio_links > a {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.portfolio_video {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.portfolio_youtubevideo {
+    border: 1px solid black;
+    display: flex;
+    width: 420px;
+    height: 315px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+
+
+
+
+
+/* Adobe Section */
+.adobe {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: #F9F9F9;
+}
+
+.adobe_title {
+    display: flex;
+}
+
+.adobe_container {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    height: auto;
+    padding-top: 150px;
+
+}
+
+.adobe_wrapper {
+    /* border: 1px solid black; */
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.adobe_wrapper .icon {
+    margin-bottom: 50px;
+}
+
+.adobe_wrapper .title {
+    
+}
+
+/* .box {
+    border: 1px solid black;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} */
+
+/* .adobe_overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+} */
+
+/* .adobe_overlay:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+} */
+
+.adobe_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.box > .xd {
+    
+}
+
+.box > .illustrator {
+
+}
+
+.box > .indesign {
+
+}
+
+.adobe_text > p {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.adobe_text > a {
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+} 
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+/* Premier Section */
+.premier {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #F9F9F9;
+    padding-bottom: 100px;
+    
+}
+
+.premier_container {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 1200px;
+    height: 100%;
+    
+}
+
+.premier_text {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.premier_title {
+
+}
+
+.premier_title img {
+
+}
+
+.premier_paragraph {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 600px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.premier_video {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+}
+
+.premier_youtubevideo {
+    border: 1px solid black;
+    display: flex;
+    width: 420px;
+    height: 315px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+
+
+
+
+/* Testomonial Section */
+.test {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 768px;
+    padding: 75px 0;
+    background-color: white;
+}
+
+.test_container {
+    /* border: 1px solid red; */
+    display: flex;
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    flex-direction: column;
+    width: 1200px;
+    height: 100%;
+}
+
+.test_title {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    /* flex: 30%; */
+    /* max-width: 100%; */
+    width: 46%;
+
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #888888;
+
+}
+
+.testimonial img {
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.name {
+    /* border: 1px solid red; */
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars {
+    color: #FF6392;;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .col {
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* Final Words Section */
+.finalwords {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #F9F9F9;
+}
+
+.finalwords_container {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 1200px;
+    height: 100%;
+}
+
+.finalwords_text {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.finalwords_title {
+
+}
+
+.finalwords_title img {
+
+}
+
+.finalwords_paragraph {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 600px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.finalwords_video {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+}
+
+.finalwords_youtubevideo {
+    border: 1px solid black;
+    display: flex;
+    width: 420px;
+    height: 315px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
